@@ -9,7 +9,7 @@ Answer the following questions in the provided markdown file before turning in t
 - Which CSS property pushes boxes away from each other?
   // margin
 - Which CSS property add space between a box's content and its border?
-  // padding
+  // padding.
 
 ## Notes
 
