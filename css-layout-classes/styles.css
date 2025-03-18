@@ -1,0 +1,56 @@
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+header {
+  font-size: 24px;
+}
+
+h2 {
+  display: flex;
+  font-size: 24px;
+  height: 10px;
+}
+
+p {
+  font-size: 24px;
+  display: flex;
+}
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.one-third-column {
+  width: calc(100% / 3);
+}
+
+.one-fourth-column {
+  width: calc(100% / 4);
+}
+
+img {
+  width: 100%;
+}
+
+.one-second-column-dk {
+  width: calc(100% / 4);
+  padding: 0.5rem;
+}
+
+.one-second-column-dk img {
+  width: 70%;
+}
+
+.one-second-column-mario {
+  width: calc(100% / 5);
+  padding: 0.5rem;
+}
+
+.one-second-column-mario img {
+  width: 70%;
+}
