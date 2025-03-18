@@ -39,18 +39,18 @@ img {
 
 .one-second-column-dk {
   width: calc(100% / 4);
+  padding: 0.5rem;
 }
 
 .one-second-column-dk img {
-  width: 400px;
-  margin: 0 auto;
+  width: 70%;
 }
 
 .one-second-column-mario {
-  width: calc(100% / 4);
+  width: calc(100% / 5);
+  padding: 0.5rem;
 }
 
 .one-second-column-mario img {
-  width: 400px;
-  margin: 0 auto;
+  width: 70%;
 }
