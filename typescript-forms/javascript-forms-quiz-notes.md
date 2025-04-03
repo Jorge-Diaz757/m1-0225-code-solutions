@@ -23,7 +23,7 @@ Answer the following questions in the provided markdown file before turning in t
 - What is one risk of writing a lot of code without checking to see if it works so far?
 <!-- One risk of writing a lot of code without checking to see if it works so far is that bugs and errors can accumulate, making it harder to identify and fix issues later. -->
 - What is an advantage of having your console open when writing a JavaScript program?
-<!-- it helps you identify issues early and make adjustments as you go -->
+<!-- it helps you identify issues early and make adjustments as you go. -->
 
 ## Notes
 
