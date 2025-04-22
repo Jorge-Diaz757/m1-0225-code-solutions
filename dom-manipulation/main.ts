@@ -1,10 +1,10 @@
 let numOfClicks = 0;
 
-const $hotButton = document.querySelector('.hot-button');
-const $clickCount = document.querySelector('.click-count');
+const $hotButton = document.querySelector('.hot-button') as HTMLButtonElement;
+const $clickCount = document.querySelector('.click-count') as HTMLElement;
 
-if (!$hotButton) throw new Error('The $domElement query failed');
-if (!$clickCount) throw new Error('The $domElement query failed');
+if (!$hotButton) throw new Error('Query for .hot-button failed');
+if (!$clickCount) throw new Error('Query for .click-count failed');
 
 $hotButton?.addEventListener('click', function () {
   numOfClicks++;
@@ -12,9 +12,9 @@ $hotButton?.addEventListener('click', function () {
 
   $clickCount.textContent = `Clicks: ${numOfClicks}`;
 
-  // if (numOfClicks >= 5) {
-  // $hotButton.style.backgroundColor = 'red';
-  // $clickCount.textContent += 'hot!';
-  // console.log(numOfClicks)
-  // }
+  if (numOfClicks === 5) {
+    $hotButton.style.backgroundColor = 'red';
+    $clickCount.textContent += ' hot!';
+    console.log(numOfClicks);
+  }
 });
