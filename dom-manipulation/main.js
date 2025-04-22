@@ -1,17 +1,13 @@
+'use strict';
 let numOfClicks = 0;
-
-const $hotButton = document.querySelector('.hot-button') as HTMLButtonElement;
-const $clickCount = document.querySelector('.click-count') as HTMLElement;
-
+const $hotButton = document.querySelector('.hot-button');
+const $clickCount = document.querySelector('.click-count');
 if (!$hotButton || !$clickCount) {
   throw new Error(' The $hotButton or $clickCount query failed');
 }
-
 $hotButton.addEventListener('click', function () {
   numOfClicks++;
-
   $clickCount.textContent = `Clicks: ${numOfClicks}`;
-
   if (numOfClicks < 4) {
     $hotButton.className = 'hot-button cold';
   } else if (numOfClicks < 7) {
